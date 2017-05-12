@@ -36,6 +36,7 @@
 - (OutScrollView *)scrollView{
     if (!_bigScrollView) {
         _bigScrollView = [[OutScrollView alloc]init];
+        
         _bigScrollView.clipsToBounds = NO;
         _bigScrollView.backgroundColor = kBGColor;
             _bigScrollView.frame = CGRectMake(kBorderWidth, 0, self.view.bounds.size.width  - kBorderWidth * 2, 170);
