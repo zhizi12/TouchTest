@@ -1,5 +1,1 @@
-# TouchTest
-# TouchTest2
-# TouchTest2
-# RunLoopTest
-# TouchTest2
+根据事件传递特性写的一个左右两边有间隙的scrollview
